@@ -4,11 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 03</title>
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- DaisyUI and Tailwind cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-     
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+     <style>
+        .font-manrope- {
+       font-family: "Manrope", sans-serif;
+ 
+   }
+
+     </style>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header class="max-w-4xl mx-auto">
+        <div class="navbar bg-base-500">
+            <div class="navbar-start">
+                <i class="fa-solid fa-arrow-right -rotate-45 rounded-xl bg-[#ABEF5F]"></i>
+              <h1 class="btn btn-ghost text-3xl">Rinterio</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                 <li><a href="">Home</a></li>
+                 <li><a href="">Service</a></li>
+                 <li><a href="">Portfolio</a></li>
+                 <li><a href="">Blogs</a></li>
+                 <li><a href="">Contact Us</a></li>
+             </ul>
+                
+            </div>
+            <div class="navbar-end ">
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping bg-[#FFFFFF] ml-5 mr-4"></i>
+              <a class="btn rounded-full font-bold bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full"></i></a>
+              
+            </div>
+          </div>
+          <!-- banner section  -->
+          <section class="">
+            <div class="flex flex-col items-center "> 
+                <div class="pb-4">
+                    <img class="" src="./assets/banner.png" alt="">
+                </div>
+                <div class="">
+                    <h1 class="text-5xl pb-4 font-extrabold text-[#212121] text-center">A barn house of this design has a striking appearance</h1>
+                    <p class="text-base pb-4 text-[#494949] text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                  <div class="flex flex-col items-center">
+                    <button class="btn rounded-full  bg-[#acef5fc7] ">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-[#6cb915] rounded-full"></i>    </button>
+                  </div>
+                </div>
+            </div>
+          </section>
+    </header>
+    <main>
+           <!-- <section>
+            <div>
+                <div>
+                    <h1>We design thoughtful, liveable spaces</h1>
+                    <p></p>
+                    <div>
+                        <img src="./assets/commercial.png" alt="">
+                        <p></p>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+           </section> -->
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
