@@ -41,19 +41,19 @@
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                 <li><a href="">Home</a></li>
-                 <li><a href="">Service</a></li>
-                 <li><a href="">Portfolio</a></li>
-                 <li><a href="">Blogs</a></li>
-                 <li><a href="">Contact Us</a></li>
+                 <li class="font-extrabold"><a href="">Home</a></li>
+                 <li class="font-normal"><a href="">Service</a></li>
+                 <li class="font-normal"><a href="">Portfolio</a></li>
+                 <li class="font-normal"><a href="">Blogs</a></li>
+                 <li class="font-normal"><a href="">Contact Us</a></li>
              </ul>
                 
             </div>
             <div class="navbar-end ">
-                <!-- <i class="fa-solid fa-bars"></i> -->
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping bg-[#FFFFFF] ml-5 mr-4"></i>
-              <a class="btn rounded-full font-bold bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full"></i></a>
+                <i class="fa-solid fa-bars md:hidden"></i>
+                <i class="fa-solid fa-magnifying-glass hidden md:block "></i>
+                <i class="fa-solid fa-cart-shopping hidden md:block bg-[#FFFFFF] ml-5 mr-4"></i>
+              <button class="btn rounded-full font-bold hidden md:block bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full"></i></button>
               
             </div>
           </div>
@@ -64,7 +64,7 @@
                     <img class="" src="./assets/banner.png" alt="">
                 </div>
                 <div class="">
-                    <h1 class="text-5xl pb-4 font-extrabold text-[#212121] text-center">A barn house of this design has a striking appearance</h1>
+                    <h1 class="text-5xl pb-4 font-extrabold  text-[#212121] text-center">A barn house of this design has a striking appearance</h1>
                     <p class="text-base pb-4 text-[#494949] text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
                   <div class="flex flex-col items-center">
                     <button class="btn rounded-full  bg-[#acef5fc7] ">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-[#6cb915] rounded-full"></i>    </button>
@@ -75,10 +75,14 @@
     </header>
     <main class="max-w-4xl mx-auto mt-24 bg-[#1e1e1e0a]">
            <section class="">
+              <img class="pt-8 pb-5 hidden md:block" src="./assets/Vector.png" alt="">
+            <div class="lg:block flex justify-center">
+              <button class="py-1 px-2 mt-4 rounded-full mb-4 bg-[#ffffff]">  <i class="fa-solid fa-arrow-right"></i></a> About Us </button>
+            </div>
             <div class="md:inline-flex  ">
                 <div>
-                    <h1 class="text-4xl font-bold text-[#212121] pb-4">We design thoughtful, liveable spaces</h1>
-                    <p class="text-base font-medium text-[#494949] pb-6">Simple and elegant style teamed with <br> sophistication and perfection</p>
+                    <h1 class="text-4xl font-bold text-[#212121] pl-3 pb-4">We design thoughtful, liveable spaces</h1>
+                    <p class="text-base font-medium text-[#494949] pl-3 pb-6">Simple and elegant style teamed with <br> sophistication and perfection</p>
                      
                     <div class="md:inline-flex  bg-[#FFFF] rounded-xl mb-10  p-3 drop-shadow-md">
                       <div class="pl-4">
@@ -115,7 +119,7 @@
               </div>
               <h1 class="text-4xl font-bold text-[#212121] pb-4 text-center">Our Work Process</h1>
               <p class="text-base font-medium text-[#494949] pb-6 text-center">Work process refers to regulations and methods to carry out work according to a <br> certain standard and sequence</p>
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
               <!-- Card 1 -->
               <div class="bg-[#E7C1D3] max-w-3/12 rounded-xl pl-4 pt-2 pb-2">
                 <img src="./assets/concept.png" alt="">
@@ -153,6 +157,16 @@
               </div>
               </div>
             </section>
+            <!-- Explore our latest section -->
+             <section class="bg-white">
+              <div class="text-center">
+             
+                <button class="px-2 py-1 mt-14 font-bold rounded-full bg-[#acef5f5d]"> <i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
+              </div>
+              <h1 class="font-bold text-[40px] text-center"> Our Latest Portfolio</h1>
+              <p class="font-medium pt-4 pb-8 text-center">An Architecture Portfolio is simply a document that conveys the story of your professional experience <br> through imagery, text, composition, and format.</p>
+             </section>
+            
             <!-- lets contact section -->
              <section class=>
               <div class="flex flex-col items-center">
@@ -169,8 +183,8 @@
                     <input class="px-12 py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Email Number*"><br>
                     <input class="md:px-48 px-12 py-12 md:py-16 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Write your message here">                  
                  </form>
-                <div class="text-center pt-5">
-                  <button class="text-xl font-extrabold px-16 py-3 md:px-48 md:py-1 rounded-3xl  bg-[#acef5f]">Send Mail  <i class="fa-solid fa-arrow-right -rotate-45 rounded-xl bg-black"></i> </button>
+                <div class="text-center pt-5 mb-14">
+                  <button class="text-xl font-extrabold px-16 py-3 md:px-48 md:py-1 rounded-full bg-[#acef5f]">Send Mail  <i class="fa-solid fa-arrow-right -rotate-45 rounded-xl text-white bg-black"></i> </button>
                 </div>
                 
                 
@@ -180,18 +194,22 @@
     <footer class="max-w-4xl mx-auto">
          <section class="bg-[#1C1C1C]">
           
-         <h1 class="text-3xl text-white text-center"> <i class="fa-solid fa-arrow-right -rotate-45 rounded-xl bg-[#ABEF5F] "></i> Rinterio</h1>
-         <p class="text-center text-white"> is the art, science, and business planning of a creative, technical, sustainable, <br>  and functional interior solution that corresponds to the architecture of a space</p>
-         <div class=" flex">
+         <h1 class="text-3xl font-extrabold text-[#FFFFFF] text-center pt-20"> <i class="fa-solid fa-arrow-right -rotate-45 rounded-full text-lg bg-[#ABEF5F] "></i> Rinterio</h1>
+         <p class="text-center mt-4 text-[#737373]"> is the art, science, and business planning of a creative, technical, sustainable, and functional interior <br> solution that corresponds  to the architecture of a space</p>
+         <div class="flex flex-row items-center justify-center mt-6">
           <ul class="menu menu-horizontal px-1">
-             <li><a href="">Home</a></li>
-             <li><a href="">Service</a></li>
-             <li><a href="">Portfolio</a></li>
-             <li><a href="">Blogs</a></li>
-             <li><a href="">Contact Us</a></li>
+             <li class="text-[#E9E9E9] font-medium"><a href="">Home</a></li>
+             <li class="text-[#E9E9E9] font-medium"><a href="">Service</a></li>
+             <li class="text-[#E9E9E9] font-medium"><a href="">Portfolio</a></li>
+             <li class="text-[#E9E9E9] font-medium"><a href="">Blogs</a></li>
+             <li class="text-[#E9E9E9] font-medium"><a href="">Contact Us</a></li>
          </ul>
             
         </div>
+        <div class="text-center mt-5 ">
+          <button class="btn rounded-3xl mb-5 bg-[#acef5f] font-extrabold text-xl border-none">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 rounded-xl bg-black text-white"></i> </button>
+        </div>
+        
          </section>
     </footer>
 </body>
