@@ -32,8 +32,10 @@
      </style>
 </head>
 <body class="font-manrope">
-    <header class="max-w-4xl mx-auto ">
-        <div class="navbar bg-base-500">
+ 
+    <div class="bg-gradient-to-b from-gray-100 to-white">
+      <header class="max-w-4xl mx-auto ">
+        <div class="navbar bg-base-500 ">
             <div class="navbar-start">
                 <i class="fa-solid fa-arrow-right -rotate-45 py-1 px-1 rounded-xl bg-[#ABEF5F]"></i>
               <h1 class="btn btn-ghost text-3xl">Rinterio</h1>
@@ -49,13 +51,14 @@
                 
             </div>
             <div class="navbar-end ">
-                <i class="fa-solid fa-bars md:hidden bg-[#E9E9E9] px-2  py-2 rounded-full"></i>
-                <i class="fa-solid fa-magnifying-glass hidden md:block bg-[#E9E9E9] px-2  py-2 rounded-full "></i>
-                <i class="fa-solid fa-cart-shopping hidden md:block bg-[#E9E9E9] px-2  py-2 rounded-full ml-5 mr-4"></i>
-              <button class="btn rounded-full font-bold hidden md:block bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black py-1 px-1 text-white rounded-full"></i></button>
+                <i class="fa-solid fa-bars md:hidden bg-white px-2  py-2 rounded-full"></i>
+                <i class="fa-solid fa-magnifying-glass hidden md:block bg-white px-2  py-2 rounded-full "></i>
+                <i class="fa-solid fa-cart-shopping hidden md:block bg-white px-2  py-2 rounded-full ml-5 mr-4"></i>
+              <button class="btn rounded-full font-bold hidden md:block border-none bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black py-1 px-1 text-white rounded-full"></i></button>
               
             </div>
           </div>
+   
           <!-- banner section  -->
           <section class="">
             <div class="flex flex-col items-center "> 
@@ -72,7 +75,9 @@
             </div>
           </section>
     </header>
-    <main class="max-w-4xl mx-auto mt-24 bg-[#1e1e1e0a]">
+  </div>
+  <div class="bg-[#1e1e1e0a]">
+    <main class="max-w-4xl mx-auto mt-24 ">
            <section class="">
               <img class="pt-8 pb-5 hidden md:block" src="./assets/Vector.png" alt="">
             <div class="lg:block flex justify-center">
@@ -89,7 +94,7 @@
                       </div>
                       <div>
                         <h3 class="text-xl font-bold text-[#494949] pl-4">Commercial</h3>
-                        <p class="font-medium text-[#737373] pl-4">Commercial interior designers plan <br> public space government</p>
+                        <p class="font-medium text-[#737373] pl-4">Commercial interior designers plan <br> public space for government.</p>
                       </div>
                     </div>
 
@@ -100,7 +105,7 @@
                         
                         <div>
                           <h3  class="text-xl font-bold text-[#494949] pl-4">Residential</h3>
-                          <p class="font-medium text-[#737373] pl-4">In residential design, you  will be <br> planning and designing </p>
+                          <p class="font-medium text-[#737373] pl-4">Residential interior designers plan <br> public space for government.</p>
                         </div>
                         
                         
@@ -261,9 +266,10 @@
              </div>
             
               </section>
-            
+            </div>
             <!-- lets contact section -->
-             <section class="mt-8" style="background-image:url('./assets/bg.jpg');">
+           <div style="background-image:url('./assets/bg.jpg');">
+            <section class="mt-8 max-w-4xl mx-auto ">
               <div class="flex flex-col items-center ">
                 <button class=" bg-[#acef5f96] rounded-full px-2 py-2 mt-10"> <i class="fa-solid fa-arrow-right"></i> How we works</button>
                 </div>
@@ -271,28 +277,34 @@
                 <p class="text-base font-medium text-[#494949] pb-6 text-center">Use analogies and metaphors. Be the first to add your <br> personal experience.</p>
               <div>
                  <form class="text-center">
-                    <input class="px-12 py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="First Name*">
-                    <input class="px-12 py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Last Name*">
-                    <br>
-                    <input class="px-12 py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Phone Number*">
-                    <input class="px-12 py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Email Number*"><br>
-                    <input class="md:px-48 px-12 py-12 md:py-16 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Write your message here">                  
+                  <div class="md:flex ml-2 mr-2 md:ml-0 md:mr-0">
+                    <input class="w-full py-3 mr-2 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]  pl-5" type="text" name="" id="" placeholder="First Name*">
+                    <input class="w-full py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]  pl-5" type="text" name="" id="" placeholder="Last Name*">
+                  </div>
+               <div class="md:flex ml-2 mr-2 md:ml-0 md:mr-0">
+                    <input class="w-full py-3 mr-2 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0] pl-5" type="text" name="" id="" placeholder="Phone Number*">
+                    <input class="w-full py-3 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]  pl-5" type="text" name="" id="" placeholder="Email Number*"><br>
+                    <!-- <input class="md:px-48 px-12 py-12 md:py-16 rounded-3xl mt-5 text-base font-medium text-[#A0A0A0]" type="text" name="" id="" placeholder="Write your message here"> -->
+                  </div>
+                     <textarea rows="8" class="w-96 md:w-full ml-1 mt-3 p-4 border-none outline-none  rounded-3xl text-base font-medium text-[#A0A0A0]" placeholder="Write your message here"></textarea>
                  </form>
-                <div class="text-center pt-5 mb-14">
+                <div class="text-center pt-5 mb-2">
                   <button class="text-xl font-extrabold px-16 py-3 md:px-48 md:py-1 mb-10 rounded-full bg-[#acef5f]">Send Mail  <i class="fa-solid fa-arrow-right -rotate-45  py-1 px-1  rounded-full text-white bg-black"></i> </button>
                 </div>
                 
                 
               </div>
              </section>
+           
     </main>
+  </div>
     <footer class="">
          <section class="bg-[#1C1C1C]">
          
          <h1 class="text-3xl font-extrabold text-[#FFFFFF] text-center pt-20">  <i class="fa-solid fa-arrow-right -rotate-45 py-1 px-1 rounded-full bg-[#ABEF5F]"></i> Rinterio</h1>
          <p class="text-center mt-4 text-[#737373]"> is the art, science, and business planning of a creative, technical, sustainable, and functional interior <br> solution that corresponds  to the architecture of a space</p>
          <div class="flex  flex-col md:flex-row items-center justify-center mt-6">
-          <ul class="menu menu-vertical md:menu-horizontal space-x-16  ">
+          <ul class="flex flex-col justify-center items-center md:flex-row gap-7 md:space-x-16">
               <li class="text-[#E9E9E9] font-medium"><a href="">Home</a></li>
               <li class="text-[#E9E9E9] font-medium"><a href="">Service</a></li>
               <li class="text-[#E9E9E9] font-medium"><a href="">Portfolio</a></li>
@@ -302,7 +314,7 @@
             
         </div>
         <div class="text-center mt-5 ">
-          <button class="px-28 py-3 md:px-5 md:py-3  rounded-full mb-5 bg-[#acef5f] font-extrabold text-xl border-none">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-2 rounded-full bg-black text-white"></i> </button>
+          <button class="px-24 py-3 md:px-5 md:py-2  rounded-full mb-5 bg-[#acef5f] font-extrabold text-xl border-none">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-2 rounded-full bg-black text-white"></i> </button>
         </div>
         
          </section>
